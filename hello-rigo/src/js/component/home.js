@@ -1,31 +1,187 @@
 import React from "react";
-import { Link } from "react-router";
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+// import { Link } from "react-dom";
 
 //create your first component
 export class Home extends React.Component {
 	render() {
 		return (
-			<div className="text-center mt-5">
-				<div
-					className="jumbotron bg-info mx-auto"
-					style={{ width: "50%" }}>
-					<h1 className="display-4">Welcome to the Shoestore!</h1>
-					<p className="lead" />
-					<hr className="my-4" />
-					<a
-						className="btn btn-dark btn-lg .text-white mr-2"
-						href="#"
-						role="button">
-						<Link to="/signup">Sign Up </Link>
-					</a>
-					<a
-						className="btn btn-dark btn-lg .text-white"
-						href="#"
-						role="button">
-						Login
-					</a>
+			<div>
+				<nav className="navbar navbar-light bg-info">
+					<span className="navbar-brand mb-3 h1">The Shoestore</span>
+				</nav>
+				<div className="container mt-3">
+					<div className="row">
+						<div className="col-sm">
+							<div className="card" style={{ width: "18rem" }}>
+								<img
+									src="https://images.pexels.com/photos/266840/pexels-photo-266840.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Card title</h5>
+									<p className="card-text">
+										This is the shoe description
+									</p>
+									<a href="#" className="btn btn-primary">
+										Go somewhere
+									</a>
+								</div>
+							</div>
+						</div>
+						<div className="col-sm">
+							<div className="card" style={{ width: "18rem" }}>
+								<img
+									src="https://images.pexels.com/photos/847371/pexels-photo-847371.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Card title</h5>
+									<p className="card-text">
+										This is the shoe description
+									</p>
+									<a href="#" className="btn btn-primary">
+										Go somewhere
+									</a>
+								</div>
+							</div>
+						</div>
+						<div className="col-sm">
+							<div className="card" style={{ width: "18rem" }}>
+								<img
+									src="https://images.pexels.com/photos/134064/pexels-photo-134064.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Card title</h5>
+									<p className="card-text">
+										This is the shoe description
+									</p>
+									<a href="#" className="btn btn-primary">
+										Go somewhere
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="container">
+					<div className="row">
+						<div className="col-sm">
+							<div className="card" style={{ width: "18rem" }}>
+								<img
+									src="https://images.pexels.com/photos/186035/pexels-photo-186035.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Card title</h5>
+									<p className="card-text">
+										This is the shoe description
+									</p>
+									<a href="#" className="btn btn-primary">
+										Go somewhere
+									</a>
+								</div>
+							</div>
+						</div>
+						<div className="col-sm">
+							<div className="card" style={{ width: "18rem" }}>
+								<img
+									src="https://images.pexels.com/photos/66259/sports-shoes-running-shoes-sneakers-marathon-shoes-66259.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Card title</h5>
+									<p className="card-text">
+										This is the shoe description
+									</p>
+									<a href="#" className="btn btn-primary">
+										Go somewhere
+									</a>
+								</div>
+							</div>
+						</div>
+						<div className="col-sm">
+							<div className="card" style={{ width: "18rem" }}>
+								<img
+									src="https://images.pexels.com/photos/267294/pexels-photo-267294.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Card title</h5>
+									<p className="card-text">
+										This is the shoe description
+									</p>
+									<a href="#" className="btn btn-primary">
+										Go somewhere
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="container">
+					<div className="row">
+						<div className="col-sm">
+							<div className="card" style={{ width: "18rem" }}>
+								<img
+									src="https://images.pexels.com/photos/1124466/pexels-photo-1124466.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Card title</h5>
+									<p className="card-text">
+										This is the shoe description
+									</p>
+									<a href="#" className="btn btn-primary">
+										Go somewhere
+									</a>
+								</div>
+							</div>
+						</div>
+						<div className="col-sm">
+							<div className="card" style={{ width: "18rem" }}>
+								<img
+									src="https://images.pexels.com/photos/40662/shoes-footwear-hiking-shoes-walking-40662.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Card title</h5>
+									<p className="card-text">
+										This is the shoe description
+									</p>
+									<a href="#" className="btn btn-primary">
+										Go somewhere
+									</a>
+								</div>
+							</div>
+						</div>
+						<div className="col-sm">
+							<div className="card" style={{ width: "18rem" }}>
+								<img
+									src="https://images.pexels.com/photos/533442/pexels-photo-533442.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Card title</h5>
+									<p className="card-text">
+										This is the shoe description
+									</p>
+									<a href="#" className="btn btn-primary">
+										Go somewhere
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		);
